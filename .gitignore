@@ -1,7 +1,17 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
+# STM32CubeIDE Files
+Binaries/
+Includes/
+Startup/
+Debug/
+STM32G431RBTX_FLASH.ld
+syscalls.c
+sysmem.c
+
 # Temporary files
+*.lck
 *.000
 *.bak
 *.bck
@@ -27,3 +37,10 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# macOS stuff
+.DS_Store
+.metadata/
+
+# Testing files
+test/
