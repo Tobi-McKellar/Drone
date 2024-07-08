@@ -9,6 +9,9 @@ Debug/
 STM32G431RBTX_FLASH.ld
 syscalls.c
 sysmem.c
+.settings/org.eclipse.core.resources.prefs
+.cproject
+.project
 
 # Temporary files
 *.lck
